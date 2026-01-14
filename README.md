@@ -68,167 +68,40 @@ Next.js Dashboard
 
 **Learns**: Narrative dominance, structural breaks, macro overrides
 
-## 🚀 Quick Start
+## 🖼️ SOME SCREENSHOTS
 
-### Prerequisites
+<a href="https://ibb.co/pvRnf3hV"><img src="https://i.ibb.co/rGcvxZd8/dddf.jpg" alt="dddf" border="0"></a>
+<a href="https://ibb.co/VcHK3ksP"><img src="https://i.ibb.co/7dg9b0q6/ddddd.jpg" alt="ddddd" border="0"></a>
+<a href="https://ibb.co/355ZzMG2"><img src="https://i.ibb.co/5XXHFntm/dddd.jpg" alt="dddd" border="0"></a>
+<a href="https://ibb.co/C59RLTPJ"><img src="https://i.ibb.co/27MGJfZ8/ddd.jpg" alt="ddd" border="0"></a>
+<a href="https://ibb.co/v4TcHfkj"><img src="https://i.ibb.co/23CFyRdk/dd.jpg" alt="dd" border="0"></a>
+<a href="https://ibb.co/VWqKt51y"><img src="https://i.ibb.co/svVB2zfS/d.jpg" alt="d" border="0"></a>
 
-- **Backend**: Python 3.10+, PostgreSQL, Redis
-- **Frontend**: Node.js 18+, npm
+## VISIBILITY
+This Model is already working and I use it for trading and giving premium signals on my telegram. It will continue to remain private, until some time in the future, i may decide to make it open source. 
 
-### Backend Setup
+## 🔗 Connect With Me
+<p>
+  <a href="https://github.com/devbigsam">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:samueldubuisi54@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://devbigsam.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-0EA5E9?logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://t.me/devbigsam">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
+  </a>
+  <a href="https://discord.gg/FjeXcnBg">
+    <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/devbigsam">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white" />
+  </a>
+</p>
 
-```bash
-cd backend
+Feel Free to Contact me if you need this model. 💌
 
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment variables (see backend/README.md)
-cp .env.example .env
-# Edit .env with your configuration
-
-# Run API server
-python run_api.py
-```
-
-The backend API will be available at `http://localhost:8000`
-
-### Frontend Setup
-
-```bash
-cd frontend
-
-# Install dependencies
-npm install
-
-# Set environment variables
-export NEXT_PUBLIC_API_URL=http://localhost:8000
-
-# Run development server
-npm run dev
-```
-
-Visit `http://localhost:3000` to access the dashboard.
-
-### Production Build
-
-```bash
-cd frontend
-npm run build
-npm run start
-```
-
-## 📊 Dashboard Features
-
-1. **Overview**: Latest predictions with confidence scores
-2. **Intelligence Feed**: Confirmed news and spread metrics
-3. **Asset View**: BTC, ETH analysis with model agreement
-4. **Model Health**: Individual model performance monitoring
-
-## 🌐 Deployment
-
-### Backend Deployment
-
-The backend can be deployed to any Python hosting service:
-- AWS EC2/ECS
-- Google Cloud Run
-- Heroku
-- DigitalOcean App Platform
-
-Ensure PostgreSQL and Redis are configured and accessible.
-
-### Frontend Deployment (Cloudflare Pages)
-
-The frontend is configured for deployment on Cloudflare Pages:
-
-1. **Connect Repository**: Link your GitHub repository to Cloudflare Pages
-
-2. **Build Settings**:
-   - Build command: `npm run build`
-   - Build output directory: `out`
-   - Root directory: `frontend`
-
-3. **Environment Variables**:
-   - `NEXT_PUBLIC_API_URL`: Your backend API URL
-   - `NODE_VERSION`: `18` or higher
-
-4. **Deploy**: Push to your main branch or use Cloudflare CLI
-
-For detailed Cloudflare deployment instructions, see [frontend/README.md](frontend/README.md)
-
-## 🛠️ Technology Stack
-
-### Backend (Python)
-- **Framework**: FastAPI
-- **Models**: XGBoost, PyTorch/TensorFlow, HuggingFace Transformers
-- **Database**: PostgreSQL
-- **Cache**: Redis
-- **Scraping**: BeautifulSoup, Scrapy, Tweepy
-
-### Frontend (Next.js)
-- **Framework**: Next.js 15+
-- **UI**: Tailwind CSS
-- **Charts**: Recharts
-- **State**: React hooks
-
-## 📁 Project Structure
-
-```
-hydra-5-trading-syst/
-├── backend/
-│   ├── api/                  # FastAPI endpoints
-│   ├── models/               # Five AI models
-│   │   ├── model1_xgboost/
-│   │   ├── model2_nlp/
-│   │   ├── model3_lstm/
-│   │   ├── model4_tcn/
-│   │   └── model5_transformer/
-│   ├── meta_decision/        # Ensemble layer
-│   ├── scrapers/             # Data collection
-│   └── requirements.txt
-├── frontend/
-│   ├── app/                  # Next.js pages
-│   ├── components/           # React components
-│   └── package.json
-└── README.md
-```
-
-## 🔐 Security
-
-- Never commit API keys or credentials
-- Use environment variables for sensitive data
-- Review [SECURITY.md](SECURITY.md) for security practices
-
-## 📖 Documentation
-
-- [HYDRA5_README.md](HYDRA5_README.md) - Detailed system overview
-- [PRD.md](PRD.md) - Product requirements document
-- [ARCHITECTURE_DIAGRAM.md](ARCHITECTURE_DIAGRAM.md) - System architecture
-- [DASHBOARD_GUIDE.md](DASHBOARD_GUIDE.md) - Dashboard usage guide
-- [backend/README.md](backend/README.md) - Backend documentation
-- [frontend/README.md](frontend/README.md) - Frontend documentation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
-## ⚠️ Disclaimer
-
-HYDRA-5 is an analytical tool for educational and research purposes. It is NOT financial advice. Always do your own research and consult with financial advisors before making investment decisions.
-
-## 💡 Core Principle
-
-> Markets move on **confirmed information**, not **first information**.
-
-HYDRA-5 behaves like an institution-grade intelligence engine, not a retail bot.
+Buy me a coffee ☕..!! 🙂
